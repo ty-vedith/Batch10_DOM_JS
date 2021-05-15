@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .soap {
+          background: rgb(0, 119, 255);
+        }
+        .soap1{
+          background: rgb(238, 255, 0);
+          } 
+        .soap2 {
+          background: rgb(255, 0, 149);
+          }
+      </style>
+    </head>
+    
+    <body>
+      <h3> SOAPS YOU CHOOSE </h3> </br>
+      <input type="button" id="Btn" value="Add a flavour" class="soap1 soap2" onclick="getsoap();">
+      <script>
+        function getsoap() {
+          var e = document.getElementById("Btn");
+          e.classList.add("soap");
+          alert("1 Flavour added");
+        }
+    
+        // function getsoap()  
+        // {  
+        //   var e = document.getElementById("Btn");  
+        //   e.classList.remove("soap");  
+        // }  
+    
+       
+      </script>
+</body>
+</html>
